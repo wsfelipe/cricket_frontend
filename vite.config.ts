@@ -8,4 +8,5 @@ export default defineConfig({
       "@": "/src",
     },
   },
+  envPrefix: ["VITE_", "SUPABASE_"],
 });
